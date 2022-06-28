@@ -14,7 +14,7 @@ Step by step approach :
 
 5. A temporal analysis of the backscatter intensities have been performed along with the soil-moisture and precipation during the considered periods to understand how the backscatter information vaires during the entire time period and does rain have any implications of the information that is retured to the radar.
 
-Uncertainty results:
+6. Uncertainty results:
 
 Forest height mean and uncertainty maps for known and complete area. 
 
