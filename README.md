@@ -10,7 +10,7 @@ Step by step approach :
 
 3. The results for the polarization infromation is then compared.
 
-4. A 10-fold cross validation is utilized to check the performace of the model for the entire dataset. The mean and the standard deviation of RMSE and R^2 shows the accuracy of the GPR model for each scenario.
+4. A 5-fold cross validation is utilized to check the performace of the model for the entire dataset. The mean and the standard deviation of RMSE and R^2 shows the accuracy of the GPR model for each scenario.
 
 5. A temporal analysis of the backscatter intensities have been performed along with the soil-moisture and precipation during the considered periods to understand how the backscatter information vaires during the entire time period and does rain have any implications of the information that is retured to the radar.
 
