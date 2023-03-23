@@ -10,6 +10,14 @@ Accurate mapping of forest above ground biomass (AGB) is essential for understan
 Will be availaible in a week. Occupied because of busy schedule.
 
 
+## <img src="https://user-images.githubusercontent.com/42670579/154798028-f97fe796-6be4-4328-9021-9912de0b3bbe.jpg" width="40" height="40"> Cite our work
+
+
+Please do cite and share our work using the below link:
+
+
+
+
 
 
 
