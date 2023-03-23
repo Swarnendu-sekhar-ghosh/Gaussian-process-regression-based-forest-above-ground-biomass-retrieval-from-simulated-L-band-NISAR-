@@ -16,6 +16,10 @@ Will be availaible in a week. Occupied because of busy schedule.
 Please do cite and share our work using the below link:
 
 
+Ghosh, Swarnendu Sekhar, Unmesh Khati, Sandeep Kumar, Avik Bhattacharya, and Marco Lavalle. "Gaussian process regression-based forest above ground biomass retrieval from simulated L-band NISAR data." International Journal of Applied Earth Observation and Geoinformation 118 (2023): 103252. 
+doi : https://doi.org/10.1016/j.jag.2023.103252
+
+
 
 
 
