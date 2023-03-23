@@ -1,22 +1,6 @@
-# Hedwig
+# Abstract
 
-A Gaussian Process Regression model for estimating Forest Height (FH) and Above Ground Biomass (AGB) is proposed in this work. Backscatter intensities from 5 scenes (3 July,7 July,26 July,13 August and 1 october 2019) have been utilized as features to retrieve the forest height and above ground biomass. As it is a monostatic radar data utilizing the condition of asymmetry, we take the average of HV and VH intensity.
-
-Step by step approach :
-
-1. Modelling a GPR model utilizing a non-linear Matern-3/2 kernel to retrieve FH and AGB. This is performed for both full-pol information and dual-pol (HH+HV) information. Utilizing the lengthscale of the Matern-3/2 kernel as weights to check the importance of the backscatter intensities of each of the 5 dates.
-
-2. The estimation of the forest height and the above ground biomass have been checked for different resolutions (20m,30,50mand 100m respectively).  
-
-3. The results for the polarization infromation is then compared.
-
-4. A 5-fold cross validation is utilized to check the performace of the model for the entire dataset. The mean and the standard deviation of RMSE and R^2 shows the accuracy of the GPR model for each scenario.
-
-5. A temporal analysis of the backscatter intensities have been performed along with the soil-moisture and precipation during the considered periods to understand how the backscatter information vaires during the entire time period and does rain have any implications of the information that is retured to the radar.
-
-6. Uncertainty results:
-
-Forest height mean and uncertainty maps for known and complete area. 
+Accurate mapping of forest above ground biomass (AGB) is essential for understanding changes in the rate of ecosystem processes such as biomass productivity, litter productivity, actual litter decomposition, and potential litter decomposition during secondary succession. They also play a vital role in evaluating forest carbon pools. This study presents a Matérn kernel-based Gaussian process regression (GPR) approach for biomass estimation integrating Synthetic Aperture Radar (SAR) backscatter intensities with LiDAR measurements. We use the backscatter intensities from five scenes of L-band Uninhabited Aerial Vehicle Synthetic Aperture Radar (UAVSAR) simulated NISAR data collected during the 2019 AM–PM NASA airborne campaign. The biomass map derived from LVIS (Land, Vegetation, and Ice Sensor) Lidar point clouds over the Lenoir landing site, Alabama, was used with these simulated NISAR data. We have utilized the GPR model to estimate the AGB of the entire forest alongside the major forest classes in the study area, namely deciduous, evergreen, and woody wetlands. To examine the dependency of the model on acquisition conditions, we calibrated and validated our proposed model utilizing scene combinations. The experiment shows that multiple-scene retrieval delivered improved AGB estimates compared to single-scene retrieval. We evaluated the efficacy of the GPR model for three AGB ranges, i.e., (i) 8 to 100 Mg ha−1, (ii) 8 to 230 Mg ha−1, and (iii) 8 to 470 Mg ha−1 at 20 m, 30 m, 50 m and 100 m spatial resolution, respectively. The results indicate that the RMSE incurred by the GPR model for all these AGB ranges seemed to reduce as we increased spatial extent or reduced spatial resolution from 20 m to 100 m. Further, we demonstrate the performance of the optimized GPR model to retrieve AGB within the biomass range of 8 Mg ha−1 to 100 Mg ha−1 for all the above-mentioned forest types. Finally, this research highlights the advantages of the Matérn kernel-based GPR model over other statistical regression models towards improved AGB mapping.
 
 
 
